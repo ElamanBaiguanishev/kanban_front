@@ -1,0 +1,55 @@
+nav {
+    width: 300px;
+    background-color: #233044;
+    flex-shrink: 0
+}
+
+nav .sidebar-element {
+    display: flex;
+    align-items: center;
+    padding: 5% 5% 5% 10%;
+    /* Фиксированное расстояние между текстом и изображением */
+    color: white;
+    position: relative;
+    /* Добавляем позицию, чтобы правильно расположить стрелку */
+}
+
+nav .sidebar-element svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 50px;
+    /* Расстояние между изображением и текстом */
+}
+
+nav .sidebar-element span {
+    margin-right: auto;
+    /* Поместить текст в начало строки, после изображения */
+}
+
+nav .sidebar-element div {
+    position: absolute;
+    right: 20px;
+    /* Расстояние от края до стрелки */
+}
+
+nav .sidebar-element:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+/* nav .sidebar-element:hover {
+    cursor: pointer;
+} */
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav li {
+    list-style: none;
+}

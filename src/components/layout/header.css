@@ -1,0 +1,82 @@
+header {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1rem;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+header a:hover {
+    color: #0056b3;
+}
+
+header button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+header button:hover {
+    background-color: #c82333;
+}
+
+header button span {
+    margin-right: 5px;
+}
+
+header svg {
+    font-size: 1.2rem;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+}
+
+.header-links a {
+    margin-right: 20px;
+}
+
+.header-links a:last-child {
+    margin-right: 0;
+}
+
+.header-username {
+    font-weight: bold;
+    margin-right: 20px;
+}

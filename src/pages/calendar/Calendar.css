@@ -1,0 +1,36 @@
+/* CalendarComponent.css */
+.react-calendar__tile .highlight {
+  background: red; /* Цвет выделения */
+  border-radius: 50%;
+  color: white;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center; /* Центрирование по вертикали */
+  margin: auto; /* Для центрирования контейнера */
+  cursor: pointer;
+}
+  
+  [data-tip] {
+    position: relative;
+  }
+  
+  [data-tip]::after {
+    content: attr(data-tip);
+    display: none;
+    position: absolute;
+    top: -5px;
+    left: 105%;
+    white-space: nowrap;
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    z-index: 1000;
+    font-size: 12px;
+  }
+  
+  [data-tip]:hover::after {
+    display: block;
+  }
